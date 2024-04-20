@@ -1,6 +1,4 @@
 
-
-
 import streamlit as st
 
 def getLargerNumber(num1, num2, num3):
@@ -29,10 +27,10 @@ def get_numbers():
 
 if __name__ == "__main__":
 
-    st.subheader('Finding the largest among the 3 given numbers')
+    st.subheader('Select/Enter Three Numbers Program will Finding the largest among the given numbers')
     st.write('#')
     number1, number2, number3 = get_numbers()
     largest = getLargerNumber(number1, number2, number3)
     st.write('#')
-    st.success(f'Largest number is : {largest}')
+    st.success(f'Result: Largest number is : {largest}')
                                               
